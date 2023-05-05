@@ -45,7 +45,7 @@ public class BusTicketBookingSystem {
         Scanner sc = new Scanner(System.in);
         BusBookingSystem busBookingSystem = new BusBookingSystem();
         while (true) {
-            System.out.println("Welcome to the Bhanupratap Bus Service");
+            System.out.println("Welcome to the Awasthi Bus Service");
             System.out.println("1. Book a bus ticket");
             System.out.println("2. Exit");
             System.out.print("Enter your choice: ");
@@ -68,7 +68,7 @@ public class BusTicketBookingSystem {
                     busBookingSystem.bookTicket(source, destination);
                     break;
                 case 2:
-                    System.out.println("Thank you for using the Bhanupratap Bus Service!");
+                    System.out.println("Thank you for using the Awasthi Bus Service!");
                     return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
